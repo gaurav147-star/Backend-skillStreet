@@ -1,4 +1,4 @@
-# Backend Aligntogether
+# Backend SkillStreet
 
 ## Authentication Endpoints
 
