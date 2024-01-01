@@ -52,15 +52,16 @@
 - **Response Format:**
 
   - Successful
-    ````json
+
+    ```json
     {
-    "id": "string",
-    "name": "string",
-    "email": "string",
-    "token": "string"
+      "id": "string",
+      "name": "string",
+      "email": "string",
+      "token": "string"
     }
-        ```
-    ````
+    ```
+
   - Error
 
     ```json
@@ -167,6 +168,17 @@
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 
+## Environment Variables
+
+To run this project, you will need to set up the following environment variables:
+
+| Variable Name | Description                                         |
+| ------------- | --------------------------------------------------- |
+| JWT_SECRET    | Set the JWT secret key for authentication.          |
+| MONGO_URI     | Set the MongoDB connection string for the database. |
+
+Make sure to add these environment variables in a `.env` file in the root directory of your project.
+
 ## Usage
 
 To use this project:
@@ -174,5 +186,3 @@ To use this project:
 1. Start the server using `npm start`.
 2. Ensure you have the necessary authentication tokens for authorized routes.
 3. Use the provided endpoints as described above.
-
-## Screenshot:
